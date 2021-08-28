@@ -1,0 +1,151 @@
+.container {
+	margin-top: 60px;
+}
+
+.mainDiv {
+	background: rgba(0, 0, 0, 2.5);
+	padding: 20px;
+}
+
+.mainDiv *:not(button):not(.form-control):not(.nav-link):not(.error):not(.rWhite) {
+	color: white;
+}
+
+h3 {
+	position: relative;
+	padding-bottom: 10px;
+	font-size: 2rem;
+}
+
+h3:before {
+	content: '';
+	display: block;
+	width: 48px;
+	height: 4px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #DA2E3A;
+}
+
+.mainP {
+	font-size: 1.5rem;
+}
+
+p {
+	text-align: justify;
+}
+
+fieldset {
+	border: 1px solid #ddd !important;
+	margin: 0;
+	xmin-width: 0;
+	padding: 10px;
+	position: relative;
+	border-radius: 4px;
+	padding-left: 10px !important;
+	margin-bottom: 10px;
+}
+
+legend {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	width: 35%;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px 5px 5px 10px;
+}
+
+/* Customize the label (the checkboxContainer) */
+.checkboxContainer {
+	display: block;
+	position: relative;
+	padding-left: 20px;
+	margin-bottom: 0;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxContainer input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 3px;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkboxContainer:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxContainer input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxContainer input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxContainer .checkmark:after {
+	left: 5px;
+	top: 0px;
+	width: 6px;
+	height: 12px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: none;
+    color: white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color: transparent;
+}
+
+.nav-tabs .nav-link{
+	color: #6b6d84;
+}
+
+.form-control{
+	color: #495057;
+}
+
+label.error{
+	color: red;
+}
+
+.btn-padding{
+	padding: 0 5px;
+}

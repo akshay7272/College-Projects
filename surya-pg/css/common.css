@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html, body {
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	font-family: 'Numans', sans-serif;
+}
+
+.container {
+	min-height: 100%;
+	align-content: center;
+}
+
+.customNav {
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.customNav>.navbar-brand {
+	color: white !important;
+}
+
+.customNav .nav-item {
+	color: white !important;
+}
+
+.customNav .nav-item.active {
+	text-decoration: underline;
+}
+
+.customNav .navbar-toggler {
+	border-color: white !important;
+}
+
+.customNav .navbar-toggler-icon {
+	color: white !important;
+}
+
+a:focus, button:focus {
+	outline: none;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	text-decoration: underline; 
+}
+
+nav.scroll {
+  background-color: black !important;
+}
+
+label.error {
+    width: 100%;
+    color: white;
+}

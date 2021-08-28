@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0%;
+    padding: 0%;
+}
+.login {
+    text-decoration:none;
+    color:white;
+    pointer:cursor;
+}
+.login:hover{
+    color:white;
+}
+.form-sign {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+}
+/*registration background*/
+.image {
+    background:url("../images/qwe.jpeg");
+    height: 55rem;
+    background-size: cover;
+   
+   
+  }
+  .image1 {
+    background:url("../images/8.jpg");
+    height: 55rem;
+    background-size: cover;
+   
+   
+  }
+  .form-opacity {
+      opacity: 0.89;
+      margin-top: 6rem;
+      background-color:unset;
+     
+     
+  }
+  .forget_password {
+      text-decoration: none;
+      color:dodgerblue;
+
+  }
+  .lavender {
+      background: lavender;
+  }
+  /*home jumbotron background*/
+  .jumbo {
+   
+   background:url("../images/wer.jpeg");
+ 
+  }
+  /*jumbotron second and third background*/
+  .jumbo1 {
+    background:url("../images/qwe11.jpeg");
+  }
+  a.buy_now_link:hover, a.buy_now_link:active 
+  {
+      color:red;
+     
+     
+  }  
+ .transform-image:hover{
+   
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    -webkit-transform: scale(1.1);
+    overflow:hidden;
+   
+    
+  } 
+  .logout {
+    text-decoration:none;
+    color:blue;
+    pointer:cursor;
+}
+.logout:hover {
+  color:red;
+}
+.user {
+  text-decoration: none;
+  pointer:cursor;
+}
+
+
+.item-zoom {
+    position: relative;
+    border: 1px solid #333;
+    overflow: hidden;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.item-zoom img {
+    vertical-align: top;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.item-zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+} 
+
+
+
+  

@@ -1,0 +1,87 @@
+.top_cart{
+		font-size: 20px;
+		color: white;
+	}
+
+	.cartdisp img{
+    width: 70px;
+  }
+  .cartdisp{
+     margin-left:25px;
+    text-align: center;
+  }
+
+  .displayItem{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 25px;
+    
+    font-size: 12px;
+  }
+  .item{
+    width:100px;
+    margin:10px;
+  }
+  .names{
+    width:100px;
+    margin:10px;
+  }
+  .prices{
+    width:100px;
+    margin:10px;
+      }
+  .quantity{
+    width:100px;
+    margin:10px;
+    
+  }
+  .total{
+    width:100px;
+    margin:10px;
+    
+  }
+  .cartlist{
+    display:flex;
+  }
+
+  .forImage{
+     width:100px;
+    border-radius:20px;
+    margin:10px;
+  }
+  .forName{
+     width:100px;
+    border-radius:20px;
+    margin:10px;
+  }
+  .forPrice{
+     width:100px;
+    border-radius:20px;
+    margin:10px;
+  }
+  .forQuantity  {
+  width:100px;
+    border-radius:20px;
+    margin:10px;
+  }
+  .forTotal{
+     width:100px;
+    border-radius:20px;
+    margin:10px;
+  }
+  .totalPriceCart{
+    width:270px;
+    margin-left:330px;
+     margin-top:0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+.subTotal{
+margin:10px;
+}
+.priceView{
+  margin:10px;   
+}
