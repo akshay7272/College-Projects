@@ -1,0 +1,1 @@
+This project is a static website for providing accomodation for girls in dharamshala. Where girls can easily see the overview of the PG like how the PG looks inside and outside, Apart from that they can easily ontact with the owner of this PG
